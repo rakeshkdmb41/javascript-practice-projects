@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.game-container {
+  margin-top: 4rem;
+}
+
+#number {
+  width: 16rem;
+  font-size: 28px;
+}
+
+.submit {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  /* cursor: not-allowed; */
+  /* cursor: default; */
+}
+
+.start-game {
+  background-color: aqua;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+}
